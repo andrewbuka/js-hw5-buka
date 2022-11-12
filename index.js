@@ -5,6 +5,7 @@ fetch('https://dummyjson.com/products')
     // Start here :)
     const { products } = data;
     const wrapper = document.querySelector('.wrapper');
+    wrapper.classList.add('mx-0');
 
     products.forEach((position) => {
       // inner-wrapper
