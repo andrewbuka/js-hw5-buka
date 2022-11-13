@@ -35,7 +35,7 @@ fetch('https://dummyjson.com/products')
       // image
 
       const image = document.createElement('img');
-      image.src = `${position.images[0]}`;
+      image.src = `${position.thumbnail}`;
       imageContainer.append(image);
       image.classList.add('card-img-top');
 
